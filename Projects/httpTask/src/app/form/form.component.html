@@ -1,0 +1,48 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="formcard">
+                <form class="form"  id="form">
+                    <span class="title">
+                        Member Login
+                    </span>
+                    <div>
+                        <input type="text" class="inputbox" id="name" onkeydown="return /[a-z]/i.test(event.key)" placeholder="User Name" [(ngModel)]="name">
+                    </div>
+                    <div>
+                        <input type="phone" [(ngModel)]="phone" maxlength="10" class="inputbox" placeholder="Phone Number">
+                    </div>
+                    <div>
+                        <input type="email" [(ngModel)]="email" class="inputbox" placeholder="Email">
+                    </div>
+                    <div>
+                        <input type="password" [(ngModel)]="password" class="inputbox" placeholder="Password">
+                    </div>
+                    <div>
+                        <input type="date" [(ngModel)]="dob" class="inputbox" min="1998-08-1" max="2022-01-01" placeholder="Date of Birth">
+                    </div>
+                    <div>
+                        <textarea name="address" [(ngModel)]="address" class="text-area" id="address" cols="30" rows="5" placeholder="Address"  style="border-radius: 15px"></textarea>
+                    </div>
+                    <div>
+                        <button class="login-btn" onclick="onLogin()">Login</button>
+                    </div>
+                    <div class="forgot">
+                        <span class="forgot">
+                            Forgot
+                        </span>
+                        <a class="forgot_link" href="#">
+                            Username / Password?
+                        </a>
+                    </div>
+                    <div class="create">
+                        <a class="create" href="#">
+                        Create your Account<i class="fas fa-arrow-right"></i>
+                    </a>
+                        </div>
+                </form>
+            </div>
+        
+        </div>
+    </div>
+</div>

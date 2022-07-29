@@ -1,0 +1,69 @@
+<div class="header">
+    <app-header></app-header>
+  </div>
+  <div class="sidenav">
+    <app-side-nav></app-side-nav>
+  </div>
+  
+  <section class="myBooks">
+    <div class="container">
+      <h2>My Collections</h2>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Sno</th>
+            <th scope="col">Book Name</th>
+            <th scope="col">Author Name</th>
+            <th scope="col">Send Request</th>
+            <th scop="col">Returns</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Body Parts</td>
+            <td>yyyy</td>
+            <td><i class="fas fa-angle-double-right text-success" routerLink="/user/request"></i></td>
+            <td><i class="fas fa-undo text-danger"  data-bs-toggle="modal"
+              data-bs-target="#exampleModal"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Math 12th</td>
+            <td>xxxx</td>
+            <td><i class="fas fa-angle-double-right text-success" routerLink="/user/request"></i></td>
+            <td><i class="fas fa-undo text-danger"  data-bs-toggle="modal"
+              data-bs-target="#exampleModal"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>kidsBoooks</td>
+            <td>zzzz</td>
+            <td><i class="fas fa-angle-double-right text-success" routerLink="/user/request"></i></td>
+            <td><i class="fas fa-undo text-danger"  data-bs-toggle="modal"
+              data-bs-target="#exampleModal"></i></td>
+          </tr>
+  
+        </tbody>
+      </table>
+    </div>
+  <!-- delete -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Delete</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Are You Sure You Want To <b> Return</b>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+          <button type="button" class="btn btn-danger" routerLink="/user/request">Yes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  </section>

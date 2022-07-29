@@ -1,0 +1,31 @@
+<section class="loginform">
+    <div class="container">
+        <div class="signup" id="signup">
+            <h2>
+                Sign In With
+            </h2>
+            <div class="block">
+                <div class="row">
+                    <div class=" col-12 px-5">
+                        <div>
+                            <label> Phone Number</label>
+                        </div>
+                        <input type="number" class="input_field" [(ngModel)]="login.pho_no" >
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 px-5">
+                        <div>
+                            <label>Password <span class="text"><a>Forgot?</a></span></label>
+                        </div>
+                        <input type="password" id="pass" class="input_field" [(ngModel)]="login.password">
+                    </div>
+                </div>
+                <button class="btn" routerLink="/admin" (click)="user()">Admin</button>
+                <button class="btn" routerLink="/user">User</button>
+            </div>
+          
+        </div>
+    </div>
+   
+</section>

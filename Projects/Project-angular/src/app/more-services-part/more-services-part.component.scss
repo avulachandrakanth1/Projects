@@ -1,0 +1,54 @@
+.more-services{
+    .card {
+        border: 0;
+        padding: 160px 20px 20px 20px;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .card-1{
+        background-image: url('https://bootstrapmade.com/demo/templates/Vesperr/assets/img/more-services-1.jpg');
+    
+    }
+    .card-2{
+        background-image: url('https://bootstrapmade.com/demo/templates/Vesperr/assets/img/more-services-2.jpg');
+    }
+    .card-3{
+        background-image: url('https://bootstrapmade.com/demo/templates/Vesperr/assets/img/more-services-3.jpg');
+    }
+    .card-4{
+        background-image: url('https://bootstrapmade.com/demo/templates/Vesperr/assets/img/more-services-4.jpg');
+    }
+    .m-services{
+        display: flex;
+        justify-content: space-between;
+    }
+    .m-ser-m{
+        margin-top: 24px;
+    }
+    .cardbody{
+        padding: 15px 30px;
+        transition: all 0.4s ease-in-out 0s;
+        border-radius: 5px;
+    }
+    .cardbody{
+        background: rgba(255, 255, 255, 0.9);
+        display: hidden;
+        a{
+            color: #222222;
+            text-decoration: none;
+            display: block;
+        
+        }
+    }
+    .cardbody:hover{
+        a{
+            color:#ffff
+        }
+        background-color: #0066ff;
+        display: block;
+        color:white;
+    }
+}

@@ -1,0 +1,75 @@
+<!-- <div class="container">
+    <div class="row">
+        <div class="d-flex">
+            <div class="col-lg-5 col-12">
+                <div>
+                    <img src="https://bootstrapmade.com/demo/templates/Vesperr/assets/img/counts-img.svg"
+                        class="counts-img">
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="container count-type">
+                    <div class="row">
+                        <div class="col-lg-6 col-12 classic">
+                            <h1><i class="fas fa-smile"></i> 68</h1>
+                            <p><b>Happy Clients</b> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
+                        </div>
+                        <div class="col-lg-6 col-12 classic">
+                            <h1><i class="fas fa-project-diagram"></i> 85</h1>
+                            <p><b>Projects</b> adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
+                        </div>
+                        <div class="col-lg-6 col-12 ">
+                            <h1><i class="fas fa-history"></i> 18</h1>
+                            <p><b>Years of experience</b> aut commodi quaerat modi aliquam nam ducimus aut voluptate non
+                                vel
+                            </p>
+                        </div>
+                        <div class="col-lg-6 col-12 ">
+                            <h1><i class="fas fa-trophy"></i> 15</h1>
+                            <p><b>Awards</b> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div> -->
+<section class="counts">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="img-fluid">
+                    <img src="https://bootstrapmade.com/demo/templates/Vesperr/assets/img/counts-img.svg"
+                        class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-7 col-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-12 classic" *ngFor="let c of counts">
+                            <h1><i class="{{c.icon}}"></i> {{c.count}}</h1>
+                            <p><b> {{c.bold}} </b> {{c.content}} </p>
+                        </div>
+                        <!-- <div class="col-lg-6 col-12 classic">
+                        <h1><i class="fas fa-project-diagram"></i> 85</h1>
+                        <p><b>Projects</b> adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-12 ">
+                        <h1><i class="fas fa-history"></i> 18</h1>
+                        <p><b>Years of experience</b> aut commodi quaerat modi aliquam nam ducimus aut voluptate non
+                            vel
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-12 ">
+                        <h1><i class="fas fa-trophy"></i> 15</h1>
+                        <p><b>Awards</b> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
+                    </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

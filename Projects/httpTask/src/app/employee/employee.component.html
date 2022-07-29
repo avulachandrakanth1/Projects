@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 " *ngFor="let empdata of emp">
+            <div class="card  mt-15">
+                <div class="container">
+                    <img src="	https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaY9NCY7uqhdrALyjkFvWyO2HYlmeeITwcJg&usqp=CAU" class="img-circle">
+                
+                    <p class="text-center"><b>{{empdata.user_name}}</b></p>
+                    <p>{{empdata.id}}</p>
+                    <p>{{empdata.phone_no}}</p>
+                    <p>{{empdata.email_id}}</p>
+                    <p>{{empdata.dob}}</p>
+                    <p>{{empdata.address}} </p>
+                </div>                
+            </div>
+        </div>
+    </div>
+</div>

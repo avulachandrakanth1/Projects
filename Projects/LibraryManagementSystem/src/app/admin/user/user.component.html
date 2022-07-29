@@ -1,0 +1,50 @@
+<div class="header">
+    <app-header></app-header>
+</div>
+<div class="sidenav">
+    <app-side-nav></app-side-nav>
+</div>
+
+<section class="user_details">
+    <div class="card">
+        <div class="user_block">
+            <img src="../assets/profile.png">
+            <h4 id="name">Name</h4>
+        </div>
+        <div class="details" id="datails">
+            <p >
+                <b>Email:</b> 
+            </p>
+            <p >
+                <b>Phone Number:</b> 
+            <p >
+                 <b>Date Of Birth:</b> 
+                </p>
+            <p >
+                <b>Address:</b> 
+              </p>
+        </div>
+        <div class="mt-4">
+            <button class="btn btn-info btn-sm px-5 " id="update" routerLink="/admin/newUser">Update</button>
+            <button class="btn btn-danger btn-sm px-5 " id="delete" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button>
+        </div>
+
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Delete</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Are You Sure You Want TO <b> Delete</b>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+              <button type="button" class="btn btn-danger">Yes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>

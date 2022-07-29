@@ -1,0 +1,49 @@
+<button class="btn float-end btn1 position-absolute top-0 start-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" role="button">
+    <i class="fas fa-bars" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"></i>
+</button>
+<div class="offcanvas offcanvas-start w-25 p-3" id="menu" tabindex="-1" id="offcanvas" data-bs-keyboard="false" data-bs-backdrop="false">
+    <div class="offcanvas-header p-3">
+        <h4 class="offcanvas-title d-none d-sm-block" id="offcanvas"></h4>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body px-0 ">
+        <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start" id="menu">
+           
+            <li >
+                <a  data-bs-toggle="collapse" class="nav-link text-truncate">
+                    <i class="fas fa-tachometer-alt text-dark"></i><span class="ms-1 d-none d-sm-inline" routerLink="/admin/dashboard">Dashboard</span> </a>
+            </li>
+            <li >
+                <a  data-bs-toggle="collapse" class="nav-link text-truncate">
+                    <i class="fas fa-th-large text-danger"></i><span class="ms-1 d-none d-sm-inline" routerLink="/admin/categories">catgories</span> </a>
+            </li>
+            <li >
+                <a  data-bs-toggle="collapse" class="nav-link text-truncate">
+                   <i class="fas fa-book text-success"></i><span class="ms-1 d-none d-sm-inline"
+                   routerLink="/admin/booksList">Books</span> </a>
+            </li>
+            <li >
+                <a  data-bs-toggle="collapse" class="nav-link text-truncate">
+                    <i class="fas fa-user text-primary"></i><span class="ms-1 d-none d-sm-inline"
+                   routerLink="/admin/users">users</span> </a>
+            </li>
+            <li >
+                <a  data-bs-toggle="collapse" class="nav-link text-truncate">
+                    <i class="fas fa-copy text-primary"></i><span class="ms-1 d-none d-sm-inline"
+                   routerLink="/admin/bookcopies">BookCopies</span> </a>
+            </li>
+            
+           
+            <li >
+                <a  data-bs-toggle="collapse" class="nav-link text-truncate"><i class="fas fa-book text-success"></i>
+                  <span class="ms-1 d-none d-sm-inline" routerLink="/admin/issue">IssueBook</span> </a>
+            </li>
+            <li >
+                <a  data-bs-toggle="collapse" class="nav-link text-truncate"><i class="fas fa-undo text-danger"></i>
+                   <span class="ms-1 d-none d-sm-inline" routerLink="/admin/return">Returns</span> </a>
+            </li>
+           
+
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+        <div class="card" *ngIf="isShow; else isHide">
+            
+            <h1>Data not Found </h1>
+        </div>
+        
+<div #isHide>
+    <p>{{message|json}} </p>
+    <app-child-class [usersData]="data" [hidden]="visible" (childEvent)="message=($event)"></app-child-class>
+</div>
+<button class="btn btn-center" (click)="clickBtn()">click </button>
+

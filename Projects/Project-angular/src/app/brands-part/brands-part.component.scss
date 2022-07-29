@@ -1,0 +1,18 @@
+.brands{
+    background-color: #f3f9fd;
+    padding: 10px 0;
+    .image-fluid{
+        max-width: 105px;
+        max-height: 50px;
+        filter: grayscale(1);
+        transition: 0.4s;
+    }
+    .image-fluid:hover{
+        filter: grayscale(0);
+        transition: 0.4s;
+    }
+    .brands-part{
+        display: flex;
+        justify-content: space-around;
+    }
+}

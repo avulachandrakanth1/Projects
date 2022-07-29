@@ -1,0 +1,50 @@
+.portfolio{
+    padding: 60px 0;
+    h1{
+        font-family: "Raleway", sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        position: relative;
+        color: #222222;
+    }
+    h3{
+        font-size: 14px;
+        text-align: center;
+        /* font-family: ''; */
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        font-weight: 400;
+    }
+    nav-tabs{
+        justify-content: center;
+        padding: 0 12px;
+        button{
+            color: #3498db;
+            background: blue;
+        }
+    }
+    app{
+        position: absolute;
+        left: 0px; 
+        top: 0px;
+    }
+    .nav-tabs{
+        justify-content: center;
+        padding: 0 12px;
+    }
+    .nav-tabs button{
+        color: white;
+        background: blue;
+    }
+    .all-img{
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+}
+
+
+
+

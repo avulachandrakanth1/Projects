@@ -1,0 +1,56 @@
+.team{
+    padding: 60px  0;
+    background-color: #f7fbfe;
+    .count-type{
+        padding: 24px 12px 0px 12px
+    }
+    .teamheader{ 
+        h1{
+        font-family: "Raleway", sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        position: relative;
+        color: #222222;
+    }
+}
+.teamsection{
+    padding: 30px 0 0 0;
+}
+.social{
+    font: icon;
+    font-size: 25px;
+    text-align: center;
+    --bs-link-color: #000000;
+    --bs-link-hover-color: #0066ff;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    display: flex;
+    opacity: 0;
+}
+.social:hover{
+    opacity: 1;
+    transition: 0.3s;
+}
+.member-info{
+    padding: 25px 15px;
+    text-align: center;
+   
+}
+.member-info h4{
+    font-family: "Raleway";
+    font-weight: bolder;
+    color: #000000;
+}
+p{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    margin: 15px 0 0 0;
+}
+
+}
+
+

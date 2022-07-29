@@ -1,0 +1,59 @@
+.services{
+    padding: 60px 0;
+    h2{
+        font-family: "Raleway", sans-serif;
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+        text-transform: uppercase;
+        position: relative;
+        color: #222222;
+    }
+    .sercard{
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        width: 100%;
+        padding: 0;
+        color: #444444;
+    }
+    .serv-heading{
+        text-align: center;
+        padding: 0 0 30px 0;
+    }
+    i{
+        font-size: 30px;
+        margin: 0 auto 20px auto;
+        padding-top: 15px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        background: #3498db;
+        transition: all 0.3s ease-in-out;
+        color: white;
+    }
+    .p{
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        margin: 15px 0 0 0;
+        padding: 20px 0px 0px 0px;
+    }
+    .p-ion{
+        padding: 20px 0px 0px 0px;
+    }
+    h4{
+        font: 'Raleway',sans-serif;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    .card{
+        padding: 0 20px;
+        display: hidden;
+    }
+    .card:hover{
+        display: block;
+        background-color: #3498db;
+        transition: all 0.3s ease-in-out;
+    }
+} 

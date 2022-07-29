@@ -1,0 +1,137 @@
+.header{
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    transition: all 0.5s;
+    padding: 0;
+    z-index: 997;
+    transition: all 0.5s;
+    padding: 12px 0;
+    background: #fff;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+}
+.header h1{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    /* padding-top: 10px; */
+    font-family: "Raleway", sans-serif;
+    --bs-link-color: #000000;
+    --bs-link-hover-color: #0066ff;
+
+}
+.navbar{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 100px;
+}
+.header .navbar .navlist{
+    margin-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.align-items-center{
+    align-items: center!important;
+    justify-content: space-between!important;
+    display: flex!important;
+
+}
+.nav-link{
+    background-color: #fff;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-menu a{
+    color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-menu a:hover{
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-taggle {
+    background-color: transparent;
+}
+.navbar .get-started{
+    /* padding: 8px 0;
+    margin: 0px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: #3498db;
+    color: white;
+    border: 3px; */
+    background: #3498db;
+    padding: 8px 25px;
+    margin-left: 30px;
+    border-radius: 50px;
+    color: #fff;
+    border: 0;
+}
+.navbar a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #555555;
+    white-space: nowrap;
+    transition: 0.3s;
+}
+a{
+    text-decoration: none;
+}
+.navbar .nav-list{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+}
+.header .logo h3{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: "Raleway", sans-serif;
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.header .logo h1 a{
+    color: #222222;
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+/* li{
+    padding: 10px;
+} */
+.header .list .list1{
+    padding: 10 0 10px 30px;
+    font-size: 15px;
+}
